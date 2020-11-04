@@ -1,0 +1,10 @@
+<!-- Sidebar -->
+<div class="bg-light border-right" id="sidebar-wrapper">
+  <div class="sidebar-heading">Admin Panel </div>
+  <div class="list-group list-group-flush">
+    <a class="list-group-item list-group-item-action bg-light" [routerLink]="['/admin/dashboard']">Dashboard</a>
+    <a class="list-group-item list-group-item-action bg-light" [routerLink]="['/admin/products']">Product List</a>
+    <a class="list-group-item list-group-item-action bg-light" (click)="logout()">Logout</a>
+  </div>
+</div>
+<!-- /#sidebar-wrapper -->
